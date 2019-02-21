@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CG2_DDALine", "CG2_DDALine\CG2_DDALine.vcproj", "{68143863-C323-4E37-86BE-C3AD0A1597D7}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CG2_DDALine", "CG2_DDALine\CG2_DDALine.vcxproj", "{68143863-C323-4E37-86BE-C3AD0A1597D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
