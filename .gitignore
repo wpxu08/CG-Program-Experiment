@@ -1,0 +1,15 @@
+bin/
+obj/
+.vs/
+Debug/
+GeneratedFiles/
+*.tlog
+*.exe
+*.obj
+*.log
+*.zip
+*.rar
+*.sdf
+*.opensdf
+InstallShield/
+ipch/
