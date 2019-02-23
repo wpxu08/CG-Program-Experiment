@@ -53,23 +53,18 @@ void CalcBZPoints()
 void ControlPoint(vector<XPoint> cpt)
 {
 	glPointSize(3);
-	for(unsigned int i=0; i<cpt.size(); i++)
-	{
-		glBegin (GL_POINTS);
-		glColor3f (1.0f, 0.0f, 0.0f); glVertex2i (cpt[i].x,cpt[i].y);
-		glEnd ();
-	}
+	glBegin(GL_POINTS);
+	for (unsigned int i = 0; i < cpt.size(); i++)
+		glVertex2i(cpt[i].x, cpt[i].y);
+	glEnd();
 }
 
 void PolylineGL(vector<XPoint> cpt)
 {
-	glBegin (GL_LINE_STRIP);
+	glBegin(GL_LINE_STRIP);
 	for (unsigned int i = 0; i < cpt.size(); i++)
-	{
-		glColor3f (1.0f, 1.0f, 1.0f);
-		glVertex2i (cpt[i].x,cpt[i].y);
-	}
-	glEnd ();
+		glVertex2i(cpt[i].x, cpt[i].y);
+	glEnd();
 }
 
 void myDisplay()
@@ -83,13 +78,15 @@ void myDisplay()
 	glEnd();
 
 	if (cpt.size() > 0) {
+		glColor3f(1.0f, 1.0f, 1.0f);
 		ControlPoint(cpt);
 		PolylineGL(cpt);
 	}
 
-	if(bDraw)
+	if (bDraw)
 	{
 		CalcBZPoints();
+		glColor3f(1.0f, 0.0f, 0.0f);
 		PolylineGL(bzpt);
 	}
 	glFlush();
