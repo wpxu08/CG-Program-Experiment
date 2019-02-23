@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CG3_GeometryTransformation", "CG3_GeometryTransformation\CG3_GeometryTransformation.vcproj", "{2CBE9A23-EF5E-4364-8EF2-5FB68F333B11}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CG3_GeometryTransformation", "CG3_GeometryTransformation\CG3_GeometryTransformation.vcxproj", "{2CBE9A23-EF5E-4364-8EF2-5FB68F333B11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
