@@ -25,7 +25,7 @@ void Reshape(int w, int h)
 	glMatrixMode(GL_MODELVIEW);
 }
 
-void Display(void)
+void myDisplay()
 {
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);	//清除颜色和深度缓冲区
 	glColor3f(0.8f, 0.8f, 0.8f);      //指定绘制立方体颜色
@@ -56,8 +56,8 @@ int main(int argc, char *argv[])
 	glutInitWindowSize(600, 400);
 	glutCreateWindow("旋转的立方体");
 	glutReshapeFunc(Reshape);
-	glutDisplayFunc(Display);
-	glutIdleFunc(Display);
+	glutDisplayFunc(myDisplay);
+	//glutIdleFunc(myDisplay);
 	Init();
 	glutMainLoop();
 

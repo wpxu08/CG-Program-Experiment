@@ -1,6 +1,6 @@
 //需要正确安装FreeGlut
 //安装方法请参考：https://blog.csdn.net/wpxu08/article/details/87785547
-#define NDEBUG
+//#define NDEBUG
 #include <GL/glut.h>
 
 void myDisplay(void)
